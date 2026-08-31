@@ -1,0 +1,8 @@
+task_id,asset_id,department,work_type,description,corridor_id,from_station,to_station,duration_min,due_date,safety_risk,status
+O-31,OHE-C2-21,Traction,OHE maintenance,Contact wire wear measurement Thane–Kalyan,C2,TNA,KYN,90,2026-09-02,High,Pending
+O-27,OHE-C2-14,Traction,Tension check,ATD tension check Karjat ghat,C2,KJT,KAD,60,2026-09-04,Medium,Pending
+O-44,OHE-C2-35,Traction,Insulator cleaning,Insulator cleaning & inspection Dombivli–Kalyan,C2,DI,KYN,120,2026-09-07,Medium,Pending
+O-19,PSI-C2-05,Traction,PSI maintenance,Switching station SP-4 breaker service Kalyan,C2,KYN,KYN,150,2026-08-31,High,Pending
+O-52,OHE-C2-41,Traction,Mast painting,OHE mast corrosion treatment Khandala,C2,KAD,LNL,180,2026-09-13,Low,Pending
+O-38,OHE-C1-16,Traction,OHE maintenance,Dropper adjustment Asangaon–Kasara,C1,ASO,KSRA,90,2026-09-05,Medium,Pending
+O-46,OHE-C1-19,Traction,Earthing check,Structure earthing continuity Titwala,C1,TLA,TLA,45,2026-09-09,Low,Pending

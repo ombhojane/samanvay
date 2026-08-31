@@ -1,0 +1,11 @@
+task_id,asset_id,department,work_type,description,corridor_id,from_station,to_station,duration_min,due_date,safety_risk,status
+T-142,TRK-C2-08,Engineering,Rail defect repair,Rail fracture suspect — USFD flagged between Thane and Dombivli,C2,TNA,DI,120,2026-08-29,High,Pending
+T-118,TRK-C2-03,Engineering,Track inspection,Push-trolley inspection Dadar–Thane,C2,DR,TNA,60,2026-09-03,Medium,Pending
+T-131,TRK-C2-12,Engineering,Deep screening,Ballast deep screening Badlapur yard approach,C2,BUD,BUD,180,2026-09-06,Medium,Pending
+T-127,TRK-C2-15,Engineering,Rail grinding,Rail grinding Karjat–Khandala ghat section,C2,KJT,KAD,150,2026-09-05,High,Pending
+T-109,TRK-C2-01,Engineering,Points renewal,Turnout renewal at CSMT yard point 72B,C2,CSMT,CSMT,240,2026-09-09,Medium,Pending
+T-151,TRK-C2-19,Engineering,Welding,AT welding of joints Dombivli–Kalyan,C2,DI,KYN,90,2026-08-31,High,Pending
+T-102,TRK-C1-04,Engineering,Track inspection,Curve realignment check Titwala–Asangaon,C1,TLA,ASO,75,2026-09-04,Low,Pending
+T-115,TRK-C1-07,Engineering,Fencing,Boundary fencing repair near Kasara,C1,ASO,KSRA,120,2026-09-11,Low,Pending
+T-160,TRK-C2-22,Engineering,Bridge inspection,Girder bridge 214 underside inspection,C2,KYN,BUD,90,2026-09-07,Medium,Pending
+T-166,TRK-C2-25,Engineering,Destressing,LWR destressing Khandala–Lonavala,C2,KAD,LNL,180,2026-09-12,Low,Pending

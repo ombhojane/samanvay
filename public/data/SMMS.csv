@@ -1,0 +1,9 @@
+task_id,asset_id,department,work_type,description,corridor_id,from_station,to_station,duration_min,due_date,safety_risk,status
+S-72,SIG-C2-31,S&T,Signal inspection,Distant signal visibility check Thane home,C2,TNA,TNA,60,2026-09-01,High,Pending
+S-64,SIG-C2-18,S&T,Point machine overhaul,Point machine 63A overhaul at Kalyan,C2,KYN,KYN,90,2026-08-30,High,Pending
+S-81,SIG-C2-44,S&T,Track circuit,Track circuit bonding renewal Dadar–Thane,C2,DR,TNA,75,2026-09-05,Medium,Pending
+S-58,SIG-C2-09,S&T,Cable check,Signalling cable meggering CSMT–Dadar,C2,CSMT,DR,30,2026-09-06,Low,Pending
+S-90,SIG-C2-52,S&T,Axle counter,Axle counter reset & calibration Karjat,C2,KJT,KJT,45,2026-09-04,Medium,Pending
+S-95,SIG-C1-12,S&T,Signal inspection,LED signal lamp replacement Titwala,C1,TLA,TLA,40,2026-09-03,Medium,Pending
+S-77,SIG-C1-08,S&T,Interlocking test,Route interlocking test Kasara,C1,KSRA,KSRA,120,2026-09-08,High,Pending
+S-99,SIG-C2-60,S&T,Cable check,Location box moisture inspection Badlapur,C2,BUD,BUD,30,2026-09-10,Low,Pending

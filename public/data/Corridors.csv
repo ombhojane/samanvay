@@ -1,0 +1,14 @@
+corridor_id,corridor_name,division,station_code,station_name,km,tier
+C2,CSMT – Lonavala,Mumbai,CSMT,Mumbai CSMT,0,major
+C2,CSMT – Lonavala,Mumbai,DR,Dadar,9,minor
+C2,CSMT – Lonavala,Mumbai,TNA,Thane,34,major
+C2,CSMT – Lonavala,Mumbai,DI,Dombivli,49,minor
+C2,CSMT – Lonavala,Mumbai,KYN,Kalyan,54,major
+C2,CSMT – Lonavala,Mumbai,BUD,Badlapur,68,minor
+C2,CSMT – Lonavala,Mumbai,KJT,Karjat,100,major
+C2,CSMT – Lonavala,Mumbai,KAD,Khandala,123,minor
+C2,CSMT – Lonavala,Mumbai,LNL,Lonavala,128,major
+C1,Kalyan – Kasara,Mumbai,KYN,Kalyan,0,major
+C1,Kalyan – Kasara,Mumbai,TLA,Titwala,13,minor
+C1,Kalyan – Kasara,Mumbai,ASO,Asangaon,32,minor
+C1,Kalyan – Kasara,Mumbai,KSRA,Kasara,67,major
