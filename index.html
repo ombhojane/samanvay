@@ -2,12 +2,69 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Samanvay · Block Planning</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/app.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <header class="topbar">
+      <img class="brand-logo" src="logo.jpg" alt="Samanvay — Integrated Railway Maintenance Planning" />
+      <nav class="pipeline">
+        <a href="index.html" class="active"><span class="step-n num">1</span>Operations</a>
+        <span class="sep">→</span>
+        <a href="tasks.html"><span class="step-n num">2</span>Tasks</a>
+        <span class="sep">→</span>
+        <a href="plan.html"><span class="step-n num">3</span>Plan</a>
+      </nav>
+      <div class="context">
+        <select aria-label="Corridor"></select>
+        <input type="date" min="2026-09-01" max="2026-09-28" aria-label="Plan date" />
+      </div>
+    </header>
+
+    <div class="page" id="page" style="display: none">
+      <div class="page-head">
+        <h1 class="page-title">Train operations</h1>
+        <span class="page-note num" id="service-count"></span>
+      </div>
+
+      <div class="marey-card">
+        <div class="marey-toolbar">
+          <div class="seg" role="group" aria-label="Time span" id="span-seg">
+            <button data-span="24" class="on">24 h</button>
+            <button data-span="12">12 h</button>
+            <button data-span="6">6 h</button>
+          </div>
+          <button class="toggle" id="windows-toggle" aria-pressed="false">
+            <span class="track"></span>
+            Show maintenance windows
+          </button>
+          <div class="marey-legend">
+            <span><span class="sw" style="border-color: #44403c"></span>Express</span>
+            <span><span class="sw" style="border-color: #78716c"></span>Passenger</span>
+            <span><span class="sw" style="border-color: #cbc6c0"></span>Suburban</span>
+            <span><span class="sw" style="border-color: #a09c96; border-top-style: dashed"></span>Goods (forecast)</span>
+          </div>
+        </div>
+        <div class="marey-body">
+          <div id="station-gutter"></div>
+          <div class="marey-scroll" id="marey-scroll"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="loading" id="loading">Loading corridor data…</div>
+
+    <script src="js/plan.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/operations.js"></script>
   </body>
 </html>

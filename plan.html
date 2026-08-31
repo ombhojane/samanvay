@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samanvay · Block Planning</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <img class="brand-logo" src="logo.jpg" alt="Samanvay — Integrated Railway Maintenance Planning" />
+      <nav class="pipeline">
+        <a href="index.html"><span class="step-n num">1</span>Operations</a>
+        <span class="sep">→</span>
+        <a href="tasks.html"><span class="step-n num">2</span>Tasks</a>
+        <span class="sep">→</span>
+        <a href="plan.html" class="active"><span class="step-n num">3</span>Plan</a>
+      </nav>
+      <div class="context">
+        <select aria-label="Corridor"></select>
+        <input type="date" min="2026-09-01" max="2026-09-28" aria-label="Plan date" />
+      </div>
+    </header>
+
+    <div class="page" id="page" style="display: none"></div>
+
+    <div class="loading" id="loading">Scoring candidate windows…</div>
+
+    <script src="js/plan.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/planner.js"></script>
+  </body>
+</html>

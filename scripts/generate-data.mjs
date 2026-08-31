@@ -2,7 +2,7 @@
 // Deterministic (seeded) so the demo is reproducible: node scripts/generate-data.mjs
 import { writeFileSync, mkdirSync } from 'node:fs'
 
-const OUT = new URL('../public/data/', import.meta.url).pathname
+const OUT = new URL('../data/', import.meta.url).pathname
 mkdirSync(OUT, { recursive: true })
 
 // seeded PRNG (mulberry32)
